@@ -1,0 +1,26 @@
+note_id,appointment_id,root_cause,confidence,summary,recommended_action,validation_status,raw_response
+N001,A0872,,,,,invalid,
+N002,A0897,distance_or_transport,0.95,The patient missed their routine check-up because they live too far from the clinic and lacked morning transportation.,Offer telehealth options for routine check-ups or provide transportation assistance resources.,valid,"{""root_cause"": ""distance_or_transport"", ""confidence"": 0.95, ""summary"": ""The patient missed their routine check-up because they live too far from the clinic and lacked morning transportation."", ""recommended_action"": ""Offer telehealth options for routine check-ups or provide transportation assistance resources.""}"
+N003,A0526,cost_or_fee,0.95,Patient skipped the appointment due to high monthly consultation fees and inquired about potential follow-up discounts.,"Provide the patient with information regarding financial assistance, payment plans, or sliding-scale fee options.",valid,"{
+  ""root_cause"": ""cost_or_fee"",
+  ""confidence"": 0.95,
+  ""summary"": ""Patient skipped the appointment due to high monthly consultation fees and inquired about potential follow-up discounts."",
+  ""recommended_action"": ""Provide the patient with information regarding financial assistance, payment plans, or sliding-scale fee options.""
+}"
+N004,A0926,other,0.0,No note recorded,Re-call patient,skipped_blank,
+N005,A0534,,,,,invalid,
+N006,A0507,work_or_schedule,0.95,Patient missed appointment due to an unexpected urgent office meeting and requested an evening slot for future visits.,Offer evening appointment slots and implement text reminders for better scheduling flexibility.,valid,"{""root_cause"":""work_or_schedule"",""confidence"":0.95,""summary"":""Patient missed appointment due to an unexpected urgent office meeting and requested an evening slot for future visits."",""recommended_action"":""Offer evening appointment slots and implement text reminders for better scheduling flexibility.""}"
+N007,A0333,forgot_on_no_reminder,0.95,Patient missed the appointment because they forgot and did not receive a reminder SMS. They requested a rebooking.,Reschedule the appointment and verify the patient's contact number to ensure future automated SMS reminders are delivered successfully.,valid,"{
+  ""root_cause"": ""forgot_on_no_reminder"",
+  ""confidence"": 0.95,
+  ""summary"": ""Patient missed the appointment because they forgot and did not receive a reminder SMS. They requested a rebooking."",
+  ""recommended_action"": ""Reschedule the appointment and verify the patient's contact number to ensure future automated SMS reminders are delivered successfully.""
+}"
+N008,A0222,distance_or_transport,0.95,"Patient missed the appointment due to a city bus strike and lack of available transport, compounded by distance issues.",Offer telehealth options for future visits or provide transportation assistance information.,valid,"{
+  ""root_cause"": ""distance_or_transport"",
+  ""confidence"": 0.95,
+  ""summary"": ""Patient missed the appointment due to a city bus strike and lack of available transport, compounded by distance issues."",
+  ""recommended_action"": ""Offer telehealth options for future visits or provide transportation assistance information.""
+}"
+N009,A0977,,,,,invalid,
+N010,A0596,work_or_schedule,0.95,Patient missed the appointment due to a factory shift change and inability to secure leave. Prefers Saturday slots.,Update patient scheduling preference to Saturday slots and offer flexible timing options for future bookings.,valid,"{""root_cause"": ""work_or_schedule"", ""confidence"": 0.95, ""summary"": ""Patient missed the appointment due to a factory shift change and inability to secure leave. Prefers Saturday slots."", ""recommended_action"": ""Update patient scheduling preference to Saturday slots and offer flexible timing options for future bookings.""}"
