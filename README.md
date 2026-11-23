@@ -1,7 +1,6 @@
 # CareLoop Clinics - No-Show Guard
 
-**GitHub Repository:** ADD_YOUR_GITHUB_REPOSITORY_LINK_HERE
-
+GitHub Repository: https://github.com/shaw21339-crypto/CareLoop-Clinics-No-Show-Guard
 ## Project Overview
 
 CareLoop Clinics - No-Show Guard is a data analysis and machine learning project
